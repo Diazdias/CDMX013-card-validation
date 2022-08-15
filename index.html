@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TAO Arte</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!--logo de la empresa y referencias de encabezado -->
+  <figure>
+    <img src="img/tao.jpg" alt="logotipo de galeria" width="auto" height="100"/>  </figure>
+
+  <!--Título -->
+  <center>
+  <h1> Seleccionaste esta Obra! <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkbox" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <polyline points="9 11 12 14 20 6" />
+    <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+  </svg></h1></position="center">
+
+  <body>
+    <center>
+    <!--Obra "elegida" -->
+
+      <section class="obra"></section>
+
+      <!--imagencompra -->
+ <!--<a href="https://estefaniarodero.es/wp-content/uploads/2017/07/serveimage-300x225.jpg" rel="external">estefaniarodero</a>-->
+   <img src="img/obrauno.jpg" alt="Obra"  width="auto" height="200"/></center> 
+
+<!--Formulario -->
+    <div class="container" align="center">
+      <h2 class="formulario__titulo">&#129488;Ingresa tus datos</h2>
+          <p> Nombre del titular </p>
+        <input type="text"  id="headname" name="name">
+      <br>
+      <p> Email </p>
+      <input type="text"  id="headmail" name="mail">
+    <br>
+      <p> Teléfono </p>
+      <input type="text"  id="headphone" name="phone">
+    <br>
+     <!--Aca lo importante-->
+    <p>Número de Tarjeta</p>
+    <input type="text" id="cardnumber" maxlength="16" requiered> <!--pattern="^[0-9]*$" onkeypress="return event.charCode >= 48 && event.charCode <= 57">-->
+    <br>
+    <p>CVC</p>
+    <input type="text" id="clave" name="security" maxlength="3" autocomplete off>    
+    <br>
+    <div class="boton" align="center">
+      <br><button type="submit" class="button" id="btn1">Validar</button><br>    
+      <br>
+      <br>
+      <p id="m1" align="center"></p>
+      <p id="m2" align="center"></p>
+    
+    <!--imagen y datos de aceptación
+      <p>Tarjeta de crédito
+        <input type="tarjeta" id="tarjeta1"name=VISA> 
+        <br>
+            <input type="tarjeta" id="tarjeta2" name=Mastercard> <br>-->
+            <br>
+     <p> Acepto <a href="#" position="center"> Términos y condiciones</a></p>
+    </div>
+    <nav>
+      <ul id="menu">
+        <a href="1">Contacto</a>
+        <br>
+      </ul>
+    </nav>
+  </div>
+    </main>
+    <center>
+      <br>
+      <input type="button"  value="Limpiar" id="botonlim" onclick="location.reload()"/>
+      <br>
+      <br>
+    <footer> 
+      <br>All rights reserved TAO 2022</footer>
+      <br>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
