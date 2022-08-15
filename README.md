@@ -14,7 +14,8 @@
 La página creada es una sección en la que los interesados en adquirir una obra de arte puedan hacerla mediante el registro y pago de su tarjeta, misma que será validada para proceder con el pago y la adquisición de arte digital.
 
 ## 2. Prototipo figma
-  <img src="figmaprototipo.jpg">
+  <img src="figmaprototipo.jpg"> ![image](https://user-images.githubusercontent.com/109100785/184650464-aebb63b9-affd-404e-91ba-17aad1882d92.png)
+
 
 ## 3. Experiencia de usuario
 TAO Arte Digital
@@ -28,6 +29,7 @@ Está enfocado para personas que buscan generar una inversión para un futuro, a
 * Estudiar mas los conceptos de js para su aplicación
 
 ## 5. Página final
-<img src="webfinal.png">
+<img src="webfinal.png"> ![image](https://user-images.githubusercontent.com/109100785/184650395-27b36f31-9f89-433b-b92c-49c986f64f64.png)
+
 
 ***
